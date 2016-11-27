@@ -1,0 +1,146 @@
+/* Styles for Product Page Customization */
+/* NOTE: Do not edit the Bootstrap CSS files. */
+
+/* Styles for test assignment */
+
+body {
+    background-color: orange;
+    margin: 0px;
+    padding: 0px;
+}
+/*----- header -----*/
+header {
+    background-color: #2B60DE;/*color:royalblue*/
+    background-image: url("assets/img/ordinateur-portable-apple.jpg");
+    height: 200px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+header img{
+    float: left;
+}
+
+header p {
+    font-size: 20pt;
+    color: white;
+}
+
+
+/*----- sidebar -----*/ 
+.sidebar {
+    position: absolute;
+    top: 230px;
+    width: 100px;
+    height: 800px;
+    transition: .5s;
+    background-color: darkorange;
+    margin: 0px;
+}
+
+.sidebar h2 {
+    margin: 10px;
+    width: 70px;
+    height: 70px; 
+/*    padding: 10px; */
+    font-size: 0;
+    transition: .8s
+}
+
+.sidebar img {
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.sidebar:hover {
+    width: 95%;
+    box-shadow: 5px 5px 2px black;
+    background-color: #F7E7CE; /*color:champagne*/
+
+
+}
+
+/*----- Sidebar Data -----*/ 
+.sidebar h2:hover {
+    font-size: 40pt;
+    background-color: transparent;
+    height: 70px;
+    width: 100%;
+    padding: 20px; 
+    padding-bottom: 50px;
+}
+
+.layer-2 {
+    background-image: url("assets/img/more-information.png");
+    width: 100%;
+    font-size: 0px;
+    transition: .8s;
+    height: 15px;
+    margin-bottom: 30px;
+}
+
+ .layer-2:hover {
+    padding-left: 10%;
+    padding-right: 5%; 
+    text-align: right;
+    width: 85%;
+    font-size: 12pt;
+    height: 15%;
+
+}
+
+/*----- Data - About -----*/
+.about-us {
+    color: red;
+}
+
+
+
+
+/*----- Data - Testamonials -----*/
+.testamonials {
+    color: orange;
+}
+
+
+
+
+/*----- Data - Features -----*/
+.features {
+    color: purple;
+}
+
+
+
+
+/*----- Data - Contact Us -----*/
+.contact-us {
+    color: green;
+}
+
+
+/*----- Video -----*/
+.video {
+    margin-left: 12%;
+    padding: 10px;
+    text-align: center;
+}
+
+.signup-button {
+    text-align: center;
+    margin-left: 40%;
+    background: red;
+    color: white;
+    border-radius: 15px;
+    width: 200px;
+    padding:15px 32px;
+    font-family: sans-serif;
+    transition: .1s;
+    box-shadow: 0px 10px 0px darkred;
+}
+
+.signup-button:active {
+    background: red;
+    box-shadow: 0px 5px 0px darkred;
+    transform: translateY(5px);
+}

@@ -5,7 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- TODO: Add proper head tag to provide a page description for search engines. -->
+        
         <title>API Superstore</title>
+        
 <!-- Bootstrap CSS Framework -->
 <!-- You can remove the ``link`` tags below if you don't want to use Bootstrap with your site. If you choose to use Bootstrap, be sure to reference the resources and the Bootstrap official documentation: http://getbootstrap.com.Please Note: This repo does not include the Bootstrap Javascript plugins, so you cannot use the features documented under "Javascript" on the Bootstrap documentation site. -->
 <!--        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
@@ -34,60 +36,67 @@
 
     <header>
         <img src="assets/logos/api_superstore_sqlogo_bg.png" alt="Green Square Logo" style="width:auto;height:200px;">
-        <p>API Super Store</p>
+
+<!-- TODO: Create an area that allows users to Share links to the page. -->        
+        <div class="icons">
+            <a href="http://www.linkedin.com" class="linkedin-icon"></a>
+            <a href="http://www.googleplus.com" class="googleplus-icon"></a>
+            <a href="http://www.twitter.com" class="twitter-icon"></a>
+            <a href="http://www.facebook.com" class="facebook-icon"></a>
+        </div>
+        <p>All the APIs all the time!</p>
     </header>      
 
-<!-- TODO: Create an area to put the explainer video. -->        
-
+<!----- TODO: Create an area to put the explainer video. ----->        
     <div class="video"> 
-        <iframe width="90%" height="575" src="https://www.youtube.com/embed/L48g1ZWLMdo?autoplay=1;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-        <p class= "signup-button">SIGN UP NOW!</p>
- <!-- TODO: Create a call to action link to get users to sign up for the service. -->
-        
+        <iframe width="1049" height="590" src="https://www.youtube.com/embed/L48g1ZWLMdo?autoplay=1;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>   
+ 
+<!-- TODO: Create a call to action link to get users to sign up for the service. -->
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com" class= "signup-button">SIGN UP NOW!</a>
     </div>    
             
     <div class="sidebar">
-<!-- TODO: Create an area to put the long product description. -->
-        <h2><img src="assets/img/about-us.png" alt="About API Superstore" style="width:70px;height:70px;">About API Superstore</h2>
-            <p class="layer-2 about-us">
-            The API Superstore provides a catalog of third-party APIs that you can use to enhance your business.  From e-commerce to maps, API Superstore lists all of the services that customers expect and saves you the headache of sorting it out yourself!  The longer you wait, the longer you're not making more money and happier users!</p>
- <!-- TODO: Create an area to put customer testimonials. -->
+<!----- TODO: Create an area to put the long product description. ----->
+ 
+        
+        <h2 class="sidebar-first"><img src="assets/img/about-us.png" alt="About API Superstore" style="width:70px;height:70px;"> About API Superstore</h2>
+            <div class="layer-2 about-us">
+                <p>"The API Superstore provides a catalog of third-party APIs that you can use to enhance your business.  From e-commerce to maps, API Superstore lists all of the services that customers expect and saves you the headache of sorting it out yourself!  The longer you wait, the longer you're not making more money and happier users!"</p>
+            </div>
+ 
+        
+<!-- TODO: Create an area to put customer testimonials. -->
+
         <h2><img src="assets/img/testimonials.png" alt="About API Superstore" style="width:70px;height:70px;"> Testimonials </h2>
-            <p class="layer-2 testamonials">
-                <br> "This is the best website ever!" -- C.P. Yu, AmazingSite.com
-                <br> "I have really admired the way the API Superstore team has created a truly diving interface for browsing all that information that's out there for free.  For a low monthly fee, I'm able to more easily keep up with the churn of information that makes application development so difficult, and API Superstore makes my world so much happier!  Please don't stop the rocking!"  -- Amy Zon, Massive Anonymous Customer
-                <br> "Once again, I'm blown away by the amazing offerings of the API Superstore.  You really are SUPER!"  -- Clara Cache
-            </p>       
+            <div class="layer-2 testamonials quote">
+                <p>"This is the best website ever!" -- C.P. Yu, AmazingSite.com </p>
+                <p> "Once again, I'm blown away by the amazing offerings of the API Superstore.  You really are SUPER!"  -- Clara Cache </p>
+                <p> "I have really admired the way the API Superstore team has created a truly diving interface for browsing all that information that's out there for free.  For a low monthly fee, I'm able to more easily keep up with the churn of information that makes application development so difficult, and API Superstore makes my world so much happier!  Please don't stop the rocking!"  -- Amy Zon, Massive Anonymous Customer </p>
+            </div>       
+
+        
 <!-- TODO: Create an area to show features. -->
         <h2><img src="assets/img/features.png" alt="About API Superstore" style="width:70px;height:70px;"> Features </h2>
-            <p class="layer-2 features">
-                <br> Links to the best APIs from all over the web
-                <br> Pay with credit, check, IOU, wire transfer, PayPal, or livestock trade!
-                <br> Convenient catalog
-                <br> Elegant shopping experience
-            </p>        
+            <div class="layer-2 features">
+                <p> Links to the best APIs from all over the web </p>
+                <p> Pay with credit, check, IOU, wire transfer, PayPal, or livestock trade! </p>
+                <p> Convenient catalog </p>
+                <p> Elegant shopping experience </p>
+            </div>    
+        
+        
   <!-- TODO: Create an area to show company contact info (phone, location, etc.) -->
-        <h2><img src="assets/img/contact-us.png" alt="About API Superstore" style="width:70px;height:70px;"> Contact Information </h2>
-            <p class="layer-2 contact-us"> 
-                <br> Phone: 206-555-1234
-                <br> Email: info@apisuperstore.com
-                <br> Location: Seattle, Washington, USA
-            </p>      
+        <h2><img src="assets/img/contact-us.png" alt="About API Superstore" style="width:70px;height:70px;"> Contact Us </h2>
+            <div class="layer-2 contact-us"> 
+                <p> <b>Phone:</b> 206-555-1234 </p>
+                <p> <b>Email:</b> <a class="email" href="mailto:info@apisuperstore.com?Subject=API%2Superstore" target="_top">info@APIsuperstore.com</a> </p>
+                <p> <b>Location:</b> Seattle, Washington, USA </p>
+            </div>      
     </div>    
         
-      
-<!-- TODO: Create an area that allows users to Share links to the page. -->
-        
-
-        
-        
-        
-        
-
-    
-    
-    
-    
-    
+  
     </body>
 </html>
